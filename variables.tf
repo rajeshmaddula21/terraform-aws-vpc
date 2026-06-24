@@ -29,7 +29,7 @@ variable "public_sunet_cidrs" {
  
 }
 
-variable name {
+variable "public" {
   type        = map
   default     = {}
 }
