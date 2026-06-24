@@ -29,8 +29,8 @@ variable "public_sunet_cidrs" {
  
 }
 
-variable "public" {
-  type        = map
-  default     = {}
+variable "public_subnet_tags" {
+    default = {}
+    type = map
 }
 
